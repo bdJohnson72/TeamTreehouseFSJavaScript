@@ -1,0 +1,5 @@
+#Dont track the content of these folders
+#webstorm
+.idea
+.profile
+
