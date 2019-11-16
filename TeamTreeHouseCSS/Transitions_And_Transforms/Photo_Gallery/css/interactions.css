@@ -1,0 +1,24 @@
+.button{
+    color: #4a89ca;
+    border: 2px solid;
+    transition-duration: 0.5s;
+    transition-property: background, border-radius, color;
+    transition-duration: 4ms, 2s;
+}
+.button:hover{
+    border-radius: 1em;
+    color: #fff;;
+    background: #4a89ca;
+}
+.button:active{
+    background: darkred;
+}
+
+.photo-overlay{
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+.photo-overlay:hover{
+    opacity: 1;
+}
